@@ -8,6 +8,7 @@ Read support for CRAM 3.1 is available in the 3.4.0 release. This will hopefully
 
 The following summaries has been generated using Claude Opus over [htsjdk](https://github.com/broadinstitute/htsjdk), [htslib](https://github.com/samtools/htslib), [noodles](https://github.com/noodles-io/noodles) and [samtools](https://github.com/samtools/samtools) source code. The content here has not been fully verified and should be reviewed before using.
 
+See [cram-3.1-overview.md](cram-3.1-overview.md) for an overview of the assessment made between the three libraries
 
 ### Phase 1: Basic CRAM 3.1 Writing (Normal Profile)
 

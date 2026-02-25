@@ -14,6 +14,8 @@ See [cram-3.1-assessment.md](cram-3.1-assessment.md) for an overview of the asse
 
 See [phase1-cram31-write-plan.md](phase1-cram31-write-plan.md) for more information.
 
+You can see more details on other bits of work that might need to be done in [phase1-branch-assessment.md](phase1-branch-assessment.md).
+
 The vast majority of the work for basic CRAM 3.1 writing already exists on the `cn_cram_3_1_write` branch. Merging this branch removes the hard block in `CRAMEncoderV3_1`, changes the default output version to 3.1, and switches the encoding map from rANS 4x8 to rANS Nx16 with Name Tokeniser for read names. This is equivalent to htslib's `normal` profile and requires no new codec implementations — it is purely wiring up encoders that already work. Quality scores remain compressed with rANS Nx16 order-1 rather than FQZComp.
 
 ### Phase 2: FQZComp Encoding
